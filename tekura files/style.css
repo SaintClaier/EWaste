@@ -1,0 +1,132 @@
+html {
+	background: #032166;
+	background: linear-gradient(135deg, #032166, #501A4F);
+}
+
+.macondo-regular {
+	font-family: "Macondo", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.alegreya-<uniquifier> {
+	font-family: "Alegreya", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+article,
+aside {
+	padding: 0 60px;
+}
+
+nav {
+	padding-left: 60px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+h1 {
+	font-family: Macondo;
+	font-size: 50px;
+	margin: 0;
+}
+
+h2 {
+	font-family: Macondo;
+	font-size: 30px;
+	margin: 0;
+
+}
+
+p {
+	font-family: Alegreya;
+	font-size: 20px;
+	width: 100%;
+	text-align: justify;
+}
+
+.headerimage {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.image {
+	border: solid 3px #000;
+	width: 500px;
+	height: 270px;
+}
+
+.logo {
+	height: auto;
+	z-index: 1;
+	position: absolute;
+	width: 10%;
+	margin-left: 20px;
+}
+
+footer {
+	position: relative;
+	padding-top: 10px;
+}
+
+footer p {
+	text-align: center;
+}
+
+.button {
+	background-color: #DF6311;
+	color: #FFF;
+	border: 5px dashed #DF6311;
+	font-size: 1.2em;
+	padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+}
+
+.button:hover {
+	background-color: #FFA366;
+}
+
+.button.active {
+	color: #2223A5;
+}
+
+ul {
+	font-family: Alegreya;
+	font-size: 20px;
+	list-style-type: circle;
+}
+
+hr {
+	border: 4px solid #252521;
+	border-radius: 5px;
+}
+
+.index {
+	background: #5BA2C7;
+	background: linear-gradient(135deg, #5BA2C7, #66544A);
+}
+
+.bush {
+	background: #153A15;
+	background: linear-gradient(135deg, #7F9939, #AD913C);
+}
+
+.beaches {
+	background: #778182;
+	background: linear-gradient(135deg, #778182, #D59974);
+}
