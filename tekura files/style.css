@@ -1,6 +1,6 @@
 html {
-	background: #032166;
-	background: linear-gradient(135deg, #032166, #501A4F);
+	background: #F3F8F0;
+	background: linear-gradient(135deg, #F3F8F0, #5A833E);
 }
 
 .macondo-regular {
@@ -22,6 +22,7 @@ body {
 	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
+	padding-bottom: 15px;
 }
 
 article,
@@ -45,7 +46,6 @@ h2 {
 	font-family: Macondo;
 	font-size: 30px;
 	margin: 0;
-
 }
 
 p {
@@ -58,7 +58,7 @@ p {
 .headerimage {
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 350px;
 }
 
 .image {
@@ -78,6 +78,7 @@ p {
 footer {
 	position: relative;
 	padding-top: 10px;
+	padding-left: 60px;
 }
 
 footer p {
@@ -121,12 +122,24 @@ hr {
 	background: linear-gradient(135deg, #5BA2C7, #66544A);
 }
 
-.bush {
+.problem {
 	background: #153A15;
 	background: linear-gradient(135deg, #7F9939, #AD913C);
 }
 
-.beaches {
+.recycling {
 	background: #778182;
 	background: linear-gradient(135deg, #778182, #D59974);
+}
+.recycling-butt {
+	background-color: #DF6311;
+	color: #FFF;
+	border: 5px dashed #DF6311;
+	font-size: 1.2em;
+	padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
 }
