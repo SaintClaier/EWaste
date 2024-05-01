@@ -1,6 +1,6 @@
 html {
-	background: #032166;
-	background: linear-gradient(135deg, #032166, #501A4F);
+	background: #F3F8F0;
+	background: linear-gradient(135deg, #F3F8F0, #30FF4C);
 }
 
 .macondo-regular {
@@ -22,6 +22,7 @@ body {
 	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
+	padding-bottom: 15px;
 }
 
 article,
@@ -42,10 +43,10 @@ h1 {
 }
 
 h2 {
+	padding: 5px 5px 5px;
 	font-family: Macondo;
 	font-size: 30px;
 	margin: 0;
-
 }
 
 p {
@@ -58,7 +59,7 @@ p {
 .headerimage {
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 350px;
 }
 
 .image {
@@ -78,6 +79,7 @@ p {
 footer {
 	position: relative;
 	padding-top: 10px;
+	padding-left: 60px;
 }
 
 footer p {
@@ -94,7 +96,7 @@ footer p {
 	cursor: pointer;
 	text-decoration: none;
 	display: inline-block;
-	width: 200px;
+	width: 150px;
 }
 
 .button:hover {
@@ -118,15 +120,42 @@ hr {
 
 .index {
 	background: #5BA2C7;
-	background: linear-gradient(135deg, #5BA2C7, #66544A);
+	background: linear-gradient(135deg, #3AFF5E, #E12F2F);
 }
 
 .problem {
 	background: #153A15;
-	background: linear-gradient(135deg, #7F9939, #AD913C);
+	background: linear-gradient(135deg, #F0F767, #57DFDF);
 }
 
 .recycling {
-	background: #778182;
-	background: linear-gradient(135deg, #778182, #D59974);
+	background: #46434C;
+	background: linear-gradient(135deg, #FFC300, #1CED39);
+}
+.recycling-butt {
+	background-color: #2589E2;
+	color: #FFF;
+	border: 5px dashed #2589E2;
+	font-size: 1.2em;
+	padding: 5px 15px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	width: 200px;
+}
+.recycling-butt:hover {
+	background-color: #919AB0;
+}
+.border {
+	border: 5px dotted #007B02;
+	padding: 15px 15px 15px;
+}
+.moved {
+	float: right;
+}
+img {
+	border: 5px outset #FFF;
+	width: 400px;
+	height: 300px;
 }
